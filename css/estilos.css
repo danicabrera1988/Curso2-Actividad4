@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,300;1,700&display=swap');
+
+body{
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.color-header-pie{
+    top: 0;
+    background: rgba(26, 24, 22, 0.85);
+}
+
+.color1 {
+    background-color: #fed136;
+}
+
+.color2 {
+    background-color: #f8f9fa !important;
+}
+
+.padding {
+    padding: 100px;
+}
+
+.text{
+    color: #6c757d !important;
+    font-style: italic;
+    font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.container--tarifa{
+    margin: 0 auto !important; 
+    width: 65% !important; 
+}
+
+.contacto {
+    width: 100%;
+    padding: 180px 0;
+    text-align: center;
+}
+
+.contacto-icono {
+    font-size: 40px;
+    line-height: 20px;
+    margin-right: 4px;
+    color: black
+    
+}
+
+.contacto-icono-footer {
+    font-size: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+.redsocial{
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+.animacion-actividades {
+    opacity: 0;
+    transition: all 0.8s;
+}
+
+@keyframes mover {
+    0%{
+        transform: translateY(60px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
